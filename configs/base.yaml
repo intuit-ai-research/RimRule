@@ -1,0 +1,12 @@
+dataset:
+  path: data/toolhop/ToolHop30.json
+  strict_schema: true
+artifacts_dir: artifacts
+agent:
+  max_turns: 10
+  tool_timeout_seconds: 10
+max_rule_words: 80
+max_atomic_fixes_per_failure: 3
+vocabulary_randomizations: 5
+retrieval_top_k: 5
+alpha: 0.1
