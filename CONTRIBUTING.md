@@ -3,6 +3,12 @@
 Thanks for your interest in contributing. This document covers how to get set up,
 what we expect from a change, and how to get it reviewed.
 
+## Code of Conduct
+
+This project is governed by our [Code of Conduct](./CODE_OF_CONDUCT.md). By
+participating, you are expected to uphold it. Please report unacceptable behavior
+to TechOpenSource@intuit.com.
+
 ## Getting started
 
 RimRule uses [uv](https://docs.astral.sh/uv/) for dependency management and
@@ -12,7 +18,7 @@ RimRule uses [uv](https://docs.astral.sh/uv/) for dependency management and
 # Fork the repo on GitHub, then clone your fork
 git clone https://github.com/<your-username>/RimRule.git
 cd RimRule
-git remote add upstream https://github.com/<upstream-owner>/RimRule.git
+git remote add upstream https://github.com/intuit-ai-research/RimRule.git
 
 # Install all dependencies (Python 3.12)
 uv sync --all-extras
@@ -106,7 +112,8 @@ happened, and the versions of Python and RimRule you are on. For pipeline issues
 the relevant stage and the contents of the stage's state file in your `--fld`
 directory are usually the fastest path to a diagnosis.
 
-Please do not open a public issue for a suspected security vulnerability.
+Please do not open a public issue for a suspected security vulnerability. Report
+it privately to TechOpenSource@intuit.com instead.
 
 ## Licensing
 

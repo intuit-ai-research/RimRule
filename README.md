@@ -120,7 +120,8 @@ tox
 
 ## Contributing
 
-See [Contribution Guidelines](./CONTRIBUTING.md)
+See [Contribution Guidelines](./CONTRIBUTING.md) and our
+[Code of Conduct](./CODE_OF_CONDUCT.md).
 
 ## License
 
