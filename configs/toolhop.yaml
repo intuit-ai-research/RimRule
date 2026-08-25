@@ -1,0 +1,7 @@
+base: base.yaml
+agent_llm: &openai
+  provider: openai
+  model: gpt-4o-2024-11-20
+  temperature: 0
+rule_llm: *openai
+vocabulary_llm: *openai

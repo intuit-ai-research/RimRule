@@ -1,0 +1,55 @@
+# Mac
+.DS_Store
+
+# Code coverage
+.coverage
+.coverage_db_*
+coverage*.xml
+htmlcov*/
+
+# Python
+*.pyc
+__pycache__/
+/venv/
+/.venv/
+dist/
+*.whl
+*.egg-info/
+
+# Tests
+.tox/
+.pytest_cache/
+
+# IDEs
+# Intellij
+.idea/
+# ms vscode
+.vscode/
+
+# Builds
+dist/
+
+# Secrets
+.env
+*.env
+
+# Ruff
+.ruff_cache/
+
+# Claude Code
+.claude/settings.local.json
+
+# Logs and data
+*.log
+/data/experiments
+
+# ToolHop dataset (fetched from object storage, not committed)
+/data/toolhop/
+
+# RimRule artifacts (experiment outputs, caches)
+artifacts/
+*.sqlite
+
+# Local credentials
+configs/*_auth*.json
+tmp/
