@@ -27,6 +27,11 @@ dependencies = [
     "tqdm >=4.66",
 ]
 
+[project.urls]
+Homepage = "https://github.com/intuit-ai-research/RimRule"
+Repository = "https://github.com/intuit-ai-research/RimRule"
+Issues = "https://github.com/intuit-ai-research/RimRule/issues"
+
 [project.optional-dependencies]
 test = [
     "pytest >=8.4.0",
